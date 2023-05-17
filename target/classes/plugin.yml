@@ -1,8 +1,0 @@
-name: Rank_system
-version: '1.0-SNAPSHOT'
-main: com.ltnoname.rank_system.Main
-api-version: 1.19
-authors: [Ltnoname]
-description: Hosapi_advanced final project
-commands:
-  rank:
