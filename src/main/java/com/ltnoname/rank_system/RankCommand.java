@@ -29,7 +29,7 @@ public class RankCommand implements CommandExecutor {
                         OfflinePlayer target = Bukkit.getOfflinePlayer(args[0]);
                         for (Rank rank : Rank.values()) {
                             if (rank.name().equalsIgnoreCase(args[1])) {
-                                main.getRankManager().setRank(target.getUniqueId(),rank,false);
+                                main.getRankManager().setRank(target.getUniqueId(), rank,false);
                                 player.sendMessage(ChatColor.GREEN + target.getName() + "'s rank to " + rank.getDisplay() + ChatColor.GREEN + ".");
                                 if (target.isOnline()) {
                                     target.getPlayer().sendMessage(ChatColor.GREEN + player.getName() + " set your rank to " + rank.getDisplay() + ChatColor.GREEN + ".");
