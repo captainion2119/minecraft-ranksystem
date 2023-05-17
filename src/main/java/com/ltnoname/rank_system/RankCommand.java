@@ -35,7 +35,6 @@ public class RankCommand implements CommandExecutor {
                                     target.getPlayer().sendMessage(ChatColor.GREEN + player.getName() + " set your rank to " + rank.getDisplay() + ChatColor.GREEN + ".");
                                 }
                                 return false;
-
                             }
                         }
                         player.sendMessage(ChatColor.RED + "Invalid rank specified!");
